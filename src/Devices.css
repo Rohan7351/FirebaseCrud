@@ -1,0 +1,134 @@
+/* Devices.css */
+
+.container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Added align-items to center vertically */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.notification {
+  background-color: #2aadd1;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px; /* Increased padding for better touch/click interaction */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notification:hover {
+  background-color: #269abc; /* Darker shade on hover */
+}
+
+.title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 0; /* Removed default margin for better alignment */
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.device-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+  background-color: #ffffff; /* Moved background color to .device-card */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+b{
+  color: #555;
+}
+
+.device-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.device-link {
+  display: flex;
+  width: 100%; /* Stretch to match parent width */
+  text-decoration: none;
+  color: inherit;
+}
+
+.device-info {
+  flex: 1; /* Ensures flexibility for device info */
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap; /* Allow wrapping of content */
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start; /* Start from left */
+}
+
+.device-info > * {
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+.device-numbering {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.device-name, .device-number, .device-status {
+  margin: 5px 0;
+}
+
+.device-box {
+  flex: 1; /* Stretch to fill available space */
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.device-box:hover {
+  background-color: #ddd4d4; /* Lighter background on hover */
+  border-width: 12px;
+
+}
+
+.boxUnVisited {
+  /* border-top: 10px solid #007bff; Blue border for unvisited */
+  border-top: 10px solid #333; /* Blue border for unvisited */
+  background-color: #ddd4d4;
+}
+
+.boxVisited {
+  border-top: 10px solid #28a745; /* Green border for visited */
+}
+
+.block-button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0px 5px 0px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.block-button:hover {
+  background-color: #c82333;
+}

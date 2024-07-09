@@ -1,0 +1,83 @@
+/* src/Login.css */
+
+.body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    width:100%;
+    max-width: 60rem;
+    margin: 10%;
+    background-color: #87CEEB; /* Sky Blue color */
+    transition: transform 1s ease, box-shadow 0.3s ease;
+
+  }
+  
+  .login-container:hover{
+    box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .login-box {
+    background-color: #FFFFFF; /* White color for the box */
+    padding: 20px;
+    border-radius: 8px;
+    width: 75%;
+    margin: 5%;
+    max-width: 30rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+
+  .login-box:hover {
+    box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .logtext {
+    padding-left: 25%;
+    color: #072936; /* Sky Blue color for the heading text */
+  }
+  
+  label {
+    color: #000000; /* Black color for labels */
+  }
+  
+  .inp {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #87CEEB; /* Sky Blue border for inputs */
+    border-radius: 4px;
+  }
+  .log-bttn{
+    /* background-color: brown; */
+    width: 100%;
+    padding: 0% 35%;  
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  .login-button {
+    background-color: #5298b4; /* Sky Blue color for the button */
+    color: #FFFFFF; /* White color for the button text */
+    padding: 10px 20px;
+    /* width: 50%; */
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #4682B4; /* Darker shade on hover */
+  }
+  
